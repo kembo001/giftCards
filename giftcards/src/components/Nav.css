@@ -1,0 +1,49 @@
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.js-menu{
+    display: none;
+}
+.logoIMG{
+    width: 70px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: -10px;
+    /* background-color: aqua; */
+}
+
+.headerNav{
+    margin-left: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    /* border-bottom: 20px; */
+}
+.headerOption{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header_OptionBasket{
+    display: flex;
+    align-items: center;
+}
+.header_basketCount{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  
+}
+
+@media screen and (max-width: 600px) {
+   
+}

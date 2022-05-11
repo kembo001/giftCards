@@ -1,0 +1,62 @@
+.homeContainer{
+    background-color: black;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+.homeImage{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .5;
+    margin-top: 5%;
+}
+
+.homeIntro{
+    position: absolute;
+    top: 25%;
+    padding: 30px;
+    margin-left: 24%;
+    margin-top: 10%;
+}
+
+h1{
+    font-size:450%;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 1024px) {
+  
+  }
+  
+  @media screen and (max-width: 600px) {
+
+    .homeContainer{
+        background-color: black;
+        padding: 2px;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .homeImage{
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: .5;
+        margin-top: 5%;
+    }
+
+    .homeIntro{
+        position: absolute;
+        top: -5%;
+        padding: 30px;
+        margin-left: 24%;
+        margin-top: 10%;
+    }
+    h1{
+        font-size:200%;
+        font-weight: 900;
+    }
+    
+  }
+  
