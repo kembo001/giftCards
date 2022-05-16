@@ -1,0 +1,17 @@
+.logoIMG {
+  width: 70px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: -10px;
+  /* background-color: aqua; */
+}
+
+.cartLogo {
+  background-color: rgb(255, 7, 110);
+}
+
+@media screen and (max-width: 768px) {
+  .logoIMG {
+    display: none;
+  }
+}
